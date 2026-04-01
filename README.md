@@ -88,13 +88,14 @@ Antes de comenzar, asegúrate de tener:
 └─────────────────────────────────────────┘
 ```
 
-## 🚀 Guía de Instalación Paso a Paso
+# 🚀 Guía de Instalación Paso a Paso
 1. Preparación del Entorno
 Actualiza los repositorios y paquetes del sistema
 
-
-# Actualizar lista de paquetes
+```bash
+* Actualizar lista de paquetes
 sudo apt update
 
-# Actualizar paquetes existentes (opcional)
+* Actualizar paquetes existentes (opcional)
 sudo apt upgrade -y
+```
