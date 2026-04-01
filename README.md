@@ -61,12 +61,16 @@ Antes de comenzar, asegúrate de tener:
 | **Permisos** | Acceso `root` o usuario con `sudo` |
 
 ### 🔧 Verificar WSL
-bash
-sss
 
+```bash
++ powershell
+  # En PowerShell (Windows)
+  wsl --list --verbose
+```
 
 ## 🏗️ Arquitectura de la Solución
 
+```bash
 ┌─────────────────────────────────────────┐
 │           Windows 10/11                 │
 │  ┌───────────────────────────────────┐  │
@@ -82,12 +86,6 @@ sss
 │  │  └─────────────────────────────┘  │  │
 │  └───────────────────────────────────┘  │
 └─────────────────────────────────────────┘
-
-### 🔧 Verificar WSL
-```bash
-+ powershell
-  # En PowerShell (Windows)
-  wsl --list --verbose
 ```
 
 ## 🚀 Guía de Instalación Paso a Paso
