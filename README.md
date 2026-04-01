@@ -61,10 +61,9 @@ Antes de comenzar, asegúrate de tener:
 | **Permisos** | Acceso `root` o usuario con `sudo` |
 
 ### 🔧 Verificar WSL
+bash
+sss
 
-```powershell
-  # En PowerShell (Windows)
-  wsl --list --verbose
 
 ## 🏗️ Arquitectura de la Solución
 
@@ -84,3 +83,20 @@ Antes de comenzar, asegúrate de tener:
 │  └───────────────────────────────────┘  │
 └─────────────────────────────────────────┘
 
+### 🔧 Verificar WSL
+```bash
++ powershell
+  # En PowerShell (Windows)
+  wsl --list --verbose
+```
+
+## 🚀 Guía de Instalación Paso a Paso
+1. Preparación del Entorno
+Actualiza los repositorios y paquetes del sistema
+
+
+# Actualizar lista de paquetes
+sudo apt update
+
+# Actualizar paquetes existentes (opcional)
+sudo apt upgrade -y
