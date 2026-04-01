@@ -120,7 +120,7 @@ sudo apt upgrade -y
 sudo apt install php php-mysql php-curl php-gd php-intl php-ldap php-mbstring php-xml php-zip php-bz2 -y
 ```
 Extensiones instaladas:
-
+```bash
 php-mysql: Conexión a base de datos MariaDB
 php-curl: Cliente HTTP para comunicaciones externas
 php-gd: Manipulación de imágenes
@@ -130,7 +130,7 @@ php-mbstring: Manejo de cadenas multi-byte
 php-xml: Procesamiento de XML
 php-zip: Compresión de archivos
 php-bz2: Algoritmo de compresión BZ2
-
+```
 Verificar PHP:
 ```bash
 php -v
