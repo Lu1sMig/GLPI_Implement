@@ -99,3 +99,53 @@ sudo apt update
 * Actualizar paquetes existentes (opcional)
 sudo apt upgrade -y
 ```
+
+2. Instalación de Apache2
+```bash
+* Instala el servidor web Apache:
+  sudo apt install apache2 -y
+
+* Verificar instalación:
+  sudo systemctl status apache2
+
+  * Salida esperada:
+  ● apache2.service - The Apache HTTP Server
+     Active: active (running)
+```
+
+3. Instalación de PHP y Extensiones
+
+* GLPI requiere PHP 8.3 con las siguientes extensiones:
+```bash
+sudo apt install php php-mysql php-curl php-gd php-intl php-ldap php-mbstring php-xml php-zip php-bz2 -y
+```
+Extensiones instaladas:
+
+php-mysql: Conexión a base de datos MariaDB
+php-curl: Cliente HTTP para comunicaciones externas
+php-gd: Manipulación de imágenes
+php-intl: Internacionalización (soporte multi-idioma)
+php-ldap: Integración con Active Directory/LDAP
+php-mbstring: Manejo de cadenas multi-byte
+php-xml: Procesamiento de XML
+php-zip: Compresión de archivos
+php-bz2: Algoritmo de compresión BZ2
+
+Verificar PHP:
+```bash
+php -v
+```
+
+Salida esperada:
+```text
+PHP 8.3.6 (cli) (built: Jan 27 2026 03:09:47) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.6
+```
+
+4. Instalación de MariaDB
+Instala el servidor de base de datos:
+
+```bash
+sudo apt install mariadb-server -y
+```
